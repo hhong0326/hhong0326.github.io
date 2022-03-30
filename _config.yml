@@ -1,0 +1,152 @@
+# Site
+repository: hhong0326/hhong0326.github.io
+# favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 홍순일
+title: Backend Developer
+email: hhong0326@naver.com
+# website: hhong0326.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  hhong0326
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: hhong0326
+# xing_username: jekyll
+# pinterest_username: jekyll
+#youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/resume.png
+about_content: | # this will include new lines to allow paragraphs
+  
+  졸업 전 학생팀으로 구성되어 학교와 협업하여 앱 서비스 백엔드 개발에 참여했던 경험이 있습니다. 
+  <br/><mark>NodeJS & Express</mark> / <mark>Go & Gin</mark> 백엔드를 담당하여 API 서버 개발을 하고 <mark>AWS 인프라 구축</mark>을 통해 서비스를 배포한 경험이 있습니다. 
+  <br/>실시간으로 서비스를 제공하는 프로젝트를 주로 해오면서 동시성 프로그래밍 및 대용량 트래픽 처리에 대한 열정이 많습니다.
+  
+content:
+  - title: Personal experience  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 실시간 게임 유저 매칭 서비스
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: API 서버 개발
+        caption: 2021년 3월 ~ 11월
+        description: | # this will include new lines to allow paragraphs
+            * AWS ECS, DynamoDB 인프라 구축
+            * 문자 인증 및 로그인 API 개발
+            * 방 매치 관련 API 개발 및 DB 설계
+            * Git Organization으로 프로젝트 소스 버전 관리
+            * Firebase Cloud Messaging을 이용한 PUSH 기능 구현     
+
+      - layout: left
+        title: 원클릭 암호화폐 Trade Tool 서비스
+        link: bitcolabi.com
+        # link_text: boringcompany.com
+        sub_title: 백엔드 서버 개발
+        caption: 2020년 3월 ~ 2020년 12월
+        quote: >
+          Binance 암호화폐 거래소 API를 이용하여 사용자 관점에서 편리한 암호화폐 거래 도구 제공
+        description: | # this will include new lines to allow paragraphs
+            * AWS EC2 + MongoDB 인프라 구축
+            * TradingView Organization을 통해 실시간 차트 기능 개발    
+            * 로그인 및 유저 관리에 필요한 API 개발
+            * 예약 주문 기능 구현
+            * 프론트엔드 코드 배포 자동화      
+            
+  - title: Work experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:      
+      - layout: left
+        title: 위치 기반 AR 어플리케이션
+        # link: 
+        # link_text: 
+        sub_title: 백엔드 서버 개발
+        caption: 2018년 3월 ~ 5월
+        quote: >
+          ViroReact AR 프레임워크를 이용한 학교 축제용 위치 기반 AR 앱 개발 
+        description: | # this will include new lines to allow paragraphs
+            * Windows Server에서 개발 환경 구축 경험
+            * 전체 사용 기술 의사결정
+            * 로그인 및 게임 퀘스트 인증 API 구현
+            
+            
+      
+  # done
+  - title: Skills # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend
+        description: | # this will include new lines to allow paragraphs
+          * Go, NodeJS
+          * Gin, Express(Web Framework), SocketIO
+          * Visual Studio Code, Vim
+          * Git
+
+      - layout: left
+        title: DevOps
+        description: | # this will include new lines to allow paragraphs
+          * AWS EC2, ECS, S3, Route53, CodeBuild, CodeDeploy
+          * AWS DynamoDB, MongoDB
+          * Firebase Authentication, Cloud Messaging, Cloud Firestore
+
+      - layout: left
+        title: Frontend
+        description: | # this will include new lines to allow paragraphs
+          * HTML5, JavaScript 
+          * React
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left # Type of content section (list/text)
+        title: 한성대학교
+        sub_title: 컴퓨터공학과 졸업
+        caption: 2013.3 ~ 2019.2
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
