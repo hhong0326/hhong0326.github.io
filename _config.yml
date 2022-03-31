@@ -6,7 +6,7 @@ repository: hhong0326/hhong0326.github.io
 version: 2
 
 # Personal info
-name: 홍순일
+name: SUNIL HONG
 title: Backend Developer
 email: hhong0326@naver.com
 # website: hhong0326.github.io
@@ -49,57 +49,57 @@ github_username:  hhong0326
 about_profile_image: images/resume.png
 about_content: | # this will include new lines to allow paragraphs
   
-  졸업 전 학생팀으로 구성되어 학교와 협업하여 앱 서비스 백엔드 개발에 참여했던 경험이 있습니다. 
-  <br/><mark>NodeJS & Express</mark> / <mark>Go & Gin</mark> 백엔드를 담당하여 API 서버 개발을 하고 <mark>AWS 인프라 구축</mark>을 통해 서비스를 배포한 경험이 있습니다. 
-  <br/>실시간으로 서비스를 제공하는 프로젝트를 주로 해오면서 동시성 프로그래밍 및 대용량 트래픽 처리에 대한 열정이 많습니다.
+  Before graduation, I had experience working with my school to develop the backend of the app service.
+  <br/>Since then, I have been in charge of the backend position and developed API server based of that Node.JS(Express.js) and Golang(Gin) using web framework.
+  <br/>Through experiencing projects that provide services in real time, I got into concurrency programming also huge traffic handling.
   
 content:
   - title: Personal experience  # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 실시간 게임 유저 매칭 서비스
+        title: Real-Time Game User Matching Service
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: API 서버 개발
-        caption: 2021년 3월 ~ 11월
+        sub_title: In charge of API Server Development
+        caption: March - November 2021
         description: | # this will include new lines to allow paragraphs
-            * AWS ECS, DynamoDB 인프라 구축
-            * 문자 인증 및 로그인 API 개발
-            * 방 매치 관련 API 개발 및 DB 설계
-            * Git Organization으로 프로젝트 소스 버전 관리
-            * Firebase Cloud Messaging을 이용한 PUSH 기능 구현     
+            * Building AWS ECS and DynamoDB Infrastructure
+            * Implementation of verification and login API features
+            * Implementation of Matching API development and DB design
+            * Implementation of Notification  using Firebase Cloud Messaging
+            * Manage project sources with Git Organization
 
       - layout: left
-        title: 원클릭 암호화폐 Trade Tool 서비스
+        title: One-click Cryptocurrency Trade Tool
         link: bitcolabi.com
         # link_text: boringcompany.com
-        sub_title: 백엔드 서버 개발
-        caption: 2020년 3월 ~ 2020년 12월
+        sub_title: In charge of Backend
+        caption: March - December 2020
         quote: >
-          Binance 암호화폐 거래소 API를 이용하여 사용자 관점에서 편리한 암호화폐 거래 도구 제공
+          Use the Binance Cryptocurrency Exchange API to provide convenient cryptocurrency trading tools from a user's point of view
         description: | # this will include new lines to allow paragraphs
-            * AWS EC2 + MongoDB 인프라 구축
-            * TradingView Organization을 통해 실시간 차트 기능 개발    
-            * 로그인 및 유저 관리에 필요한 API 개발
-            * 예약 주문 기능 구현
-            * 프론트엔드 코드 배포 자동화      
+            * Building AWS EC2 and MongoDB Infrastructure
+            * Implementation of Real-Time chart collaborate outside of TradingView 
+            * Implementation of API required for user management
+            * Implementation of Reservation Order feature
+            * CI/CD Frontend code      
             
   - title: Work experience # Title for the section
     layout: list # Type of content section (list/text)
     content:      
       - layout: left
-        title: 위치 기반 AR 어플리케이션
+        title: Location-based AR application
         # link: 
         # link_text: 
-        sub_title: 백엔드 서버 개발
-        caption: 2018년 3월 ~ 5월
+        sub_title: Backend
+        caption: March - May 2018
         quote: >
-          ViroReact AR 프레임워크를 이용한 학교 축제용 위치 기반 AR 앱 개발 
+          Development of location-based AR app for school festivals using ViroReact AR framework
         description: | # this will include new lines to allow paragraphs
-            * Windows Server에서 개발 환경 구축 경험
-            * 전체 사용 기술 의사결정
-            * 로그인 및 게임 퀘스트 인증 API 구현
+            * Experience building a development environment on Windows Server
+            * Determine the overall usage technology stack
+            * Implementation of login and game quest authentication API features
             
             
       
@@ -132,9 +132,9 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left # Type of content section (list/text)
-        title: 한성대학교
-        sub_title: 컴퓨터공학과 졸업
-        caption: 2013.3 ~ 2019.2
+        title: Hansung University
+        sub_title: Bachelor of Computer Engineering
+        caption: March 2013 - February 2019
 
 # Footer
 footer_show_references: true
